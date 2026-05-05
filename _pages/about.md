@@ -11,13 +11,13 @@ profile:
   more_info: >
     <p>内蒙古大学</p>
     <p>计算机科学与技术</p>
-    <p>yyy_1004@163.com</p>
+    <p>yxl_imu23cs@163.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 5
 
@@ -29,4 +29,8 @@ latest_posts:
 
 我是姚祥麟，内蒙古大学计算机科学与技术专业本科生（2023 级），专业排名 1/55（前 1.8%），GPA 3.92/4.0。2025 年秋季学期曾在北京大学信息科学技术学院交流访学。
 
-我的研究兴趣集中在**生成式推荐**与**多模态学习**方向。目前的工作 CAGRec 提出在编码、训练、推理三阶段系统性注入协同信号以弥合多模态生成式推荐中的内容-协同鸿沟与离散-连续鸿沟，已投稿至 ACM MM 2026（CCF-A）。
+我的研究兴趣集中在**生成式推荐**与**多模态学习**方向。目前的工作 CAGRec 提出在编码、训练、推理三阶段系统性注入协同信号以弥合多模态生成式推荐中的内容-协同鸿沟与离散-连续鸿沟，已投稿至 ACM MM 2026（CCF-A），第一作者。
+
+此外，我曾作为队长参加 TAAC2025 腾讯广告算法大赛（全模态生成式推荐赛道），本科双人队伍取得初赛前 10% 的成绩；在北大交流期间主导了 DualBand-RingID 双频带水印识别系统的课程研究项目，多密钥识别平均准确率达 98.3%。
+
+竞赛方面，获得蓝桥杯 C/C++ 大学 A 组省级一等奖、全国大学生数学竞赛省级一等奖、CCPC 天梯赛国家级三等奖等。连续两年获内蒙古大学一等学业优秀奖学金，被评为「自强自立之星标兵」与「三好学生」。
