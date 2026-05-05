@@ -4,6 +4,7 @@ title: "DualBand-RingID: 双频带水印识别系统"
 description: "面向 AIGC 图像的双频带水印识别系统，北京大学交流期间课程研究项目。双频带策略多密钥识别平均准确率达 98.3%。"
 importance: 3
 category: research
+github: https://github.com/YYYYXL1004/DualBand-RingID
 ---
 
 ## 项目简介

@@ -4,6 +4,7 @@ title: "TAAC2025 腾讯广告算法大赛"
 description: "全模态生成式推荐赛道，本科双人队伍（队长），初赛排名前 10%（约 1400 支本硕博混合队伍），NDCG@10 从 0.0179 提升至 0.0746。"
 importance: 2
 category: competition
+github: https://github.com/YYYYXL1004/Y_TencentGR
 ---
 
 ## 赛题简介

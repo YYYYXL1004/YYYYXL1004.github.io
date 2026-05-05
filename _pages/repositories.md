@@ -35,6 +35,23 @@ nav_order: 3
 {% endif %}
 {% endif %}
 
+{% if site.data.repositories.github_users %}
+
+## GitHub Contributions
+
+{% for user in site.data.repositories.github_users %}
+<div class="repositories">
+  <a href="https://github.com/{{ user }}">
+    <img class="only-light w-100" src="https://ghchart.rshah.org/YYYYXL1004" alt="GitHub Contributions" />
+    <img class="only-dark w-100" src="https://ghchart.rshah.org/409ba5/YYYYXL1004" alt="GitHub Contributions" />
+  </a>
+</div>
+{% endfor %}
+
+---
+
+{% endif %}
+
 {% if site.data.repositories.github_repos %}
 
 ## GitHub Repositories

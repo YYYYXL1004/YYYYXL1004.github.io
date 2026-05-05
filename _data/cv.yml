@@ -73,39 +73,89 @@ cv:
           - "课程评分 A"
 
     Awards:
-      - title: 中国高校计算机大赛 — 团体程序设计天梯赛
+      - title: 中国高校计算机大赛-团体程序设计天梯赛 全国总决赛
         date: 2026-04
         awarder: 中国高校计算机大赛
-        summary: "国家级三等奖（个人）"
+        summary: "个人三等奖"
 
-      - title: 第十七届蓝桥杯 C/C++ 程序设计大学 A 组
+      - title: 第十六届蓝桥杯 C/C++ 程序设计大学 A 组
         date: 2026-04
         awarder: 蓝桥杯组委会
-        summary: "省级一等奖（个人）"
+        summary: "内蒙古赛区一等奖（个人）"
 
-      - title: 第十六届全国大学生数学竞赛（非数学 A 类）
-        date: 2024-12
-        awarder: 中国数学会
-        summary: "省级一等奖（个人）"
+      - title: 第七届码蹄杯程序设计大赛 本科院校赛道
+        date: 2025-08
+        awarder: 码蹄杯组委会
+        summary: "内蒙古赛区省赛铜奖"
+
+      - title: 第 21 届百度之星程序设计大赛初赛（人才专项赛道）
+        date: 2025-08
+        awarder: 百度
+        summary: "铜奖"
 
       - title: 第十八届中国大学生计算机设计大赛
         date: 2025-06
         awarder: 中国大学生计算机设计大赛组委会
-        summary: "省级二等奖（队员）"
+        summary: "内蒙古省级赛二等奖（队员）"
+
+      - title: 第十八届中国大学生计算机设计大赛
+        date: 2025-06
+        awarder: 中国大学生计算机设计大赛组委会
+        summary: "内蒙古省级赛三等奖（队长）"
+
+      - title: 第十六届蓝桥杯 C/C++ 程序设计大学 A 组
+        date: 2025-05
+        awarder: 蓝桥杯组委会
+        summary: "内蒙古赛区二等奖（个人）"
+
+      - title: 中国高校计算机大赛-团体程序设计天梯赛
+        date: 2025-05
+        awarder: 中国高校计算机大赛
+        summary: "内蒙古自治区团体一等奖（队员）"
+
+      - title: 第十六届全国大学生数学竞赛（非数学 A 类）
+        date: 2024-12
+        awarder: 中国数学会
+        summary: "省一等奖（个人）"
+
+      - title: 第 21 届全国大学生信息安全与对抗技术竞赛（智能安全赛）
+        date: 2024-12
+        awarder: 全国大学生信息安全与对抗技术竞赛组委会
+        summary: "省三等奖（队员）"
+
+      - title: 第十五届蓝桥杯 C/C++ 程序设计大学 A 组
+        date: 2024-04
+        awarder: 蓝桥杯组委会
+        summary: "内蒙古赛区二等奖（个人）"
 
     Honors:
+      - title: 2024 年度内蒙古大学一等本科生学业优秀奖学金
+        date: 2025-06
+        awarder: 内蒙古大学
+
+      - title: 内蒙古大学 2025 年度「三好学生」
+        date: 2025-06
+        awarder: 内蒙古大学
+
       - title: 内蒙古大学「璀璨群星耀内大」自强自立之星标兵
         date: 2025-05
         awarder: 内蒙古大学
 
-      - title: 内蒙古大学「三好学生」
-        date: 2025-06
+      - title: 2023-2024 年度国家励志奖学金
+        date: 2024-10
+        awarder: 教育部
+
+      - title: 「返家乡」社会实践优秀实习生
+        date: 2024-08
+        awarder: 共青团
+
+      - title: 2023 年度内蒙古大学一等本科生学业优秀奖学金
+        date: 2024-06
         awarder: 内蒙古大学
 
-      - title: 内蒙古大学一等本科生学业优秀奖学金（连续两年）
-        date: 2024
+      - title: 2024 年三等标兵奖学金
+        date: 2024-05
         awarder: 内蒙古大学
-        summary: "2024–2025 连续两年获得"
 
     Skills:
       - name: 编程语言
