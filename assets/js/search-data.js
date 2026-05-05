@@ -18,21 +18,21 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "科研项目与竞赛经历。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "GitHub 个人主页与开源项目仓库。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "姚祥麟的个人简历，包含教育背景、科研经历、竞赛奖项与技能等信息。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -57,17 +57,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
       },{id: "post-a-post-with-tabs",
@@ -290,17 +279,6 @@ ninja.data = [{
             window.location.href = "/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "post-a-post-with-redirect",
         
           title: "a post with redirect",
@@ -405,62 +383,36 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-获得第十六届全国大学生数学竞赛-非数学-a-类-省级一等奖",
+          title: '获得第十六届全国大学生数学竞赛（非数学 A 类）省级一等奖。',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-赴北京大学信息科学技术学院交流访学-2025-秋季学期-参与-生成模型基础-课程研究项目-课程评分-a",
+          title: '赴北京大学信息科学技术学院交流访学（2025 秋季学期），参与《生成模型基础》课程研究项目，课程评分 A。',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-taac2025-腾讯广告算法大赛全模态生成式推荐赛道-作为队长带领本科双人队伍取得初赛前-10-约-1400-支本硕博混合队伍",
+          title: 'TAAC2025 腾讯广告算法大赛全模态生成式推荐赛道，作为队长带领本科双人队伍取得初赛前 10%（约 1400 支本硕博混合队伍）。',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-论文-cagrec-collaborative-anchor-guided-multimodal-generative-recommender-已投稿至-acm-mm-2026-ccf-a-第一作者-在-amazon-3-个数据集上全部指标达到-sota",
+          title: '论文 CAGRec: Collaborative-Anchor Guided Multimodal Generative Recommender 已投稿至 ACM MM 2026 (CCF-A)，第一作者。在 Amazon...',
+          description: "",
+          section: "News",},{id: "news-获得蓝桥杯-c-c-程序设计大学-a-组省级一等奖与中国高校计算机大赛团体程序设计天梯赛国家级三等奖",
+          title: '获得蓝桥杯 C/C++ 程序设计大学 A 组省级一等奖与中国高校计算机大赛团体程序设计天梯赛国家级三等奖。',
+          description: "",
+          section: "News",},{id: "projects-cagrec-协同锚定引导的多模态生成式推荐",
+          title: 'CAGRec: 协同锚定引导的多模态生成式推荐',
+          description: "在编码、训练、推理三阶段系统性注入协同信号，弥合多模态生成式推荐中的内容-协同鸿沟与离散-连续鸿沟。已投稿 ACM MM 2026 (CCF-A)，第一作者。",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_cagrec/";
+            },},{id: "projects-taac2025-腾讯广告算法大赛",
+          title: 'TAAC2025 腾讯广告算法大赛',
+          description: "全模态生成式推荐赛道，本科双人队伍（队长），初赛排名前 10%（约 1400 支本硕博混合队伍），NDCG@10 从 0.0179 提升至 0.0746。",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_taac/";
+            },},{id: "projects-dualband-ringid-双频带水印识别系统",
+          title: 'DualBand-RingID: 双频带水印识别系统',
+          description: "面向 AIGC 图像的双频带水印识别系统，北京大学交流期间课程研究项目。双频带策略多密钥识别平均准确率达 98.3%。",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/3_dualband/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
@@ -476,21 +428,21 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/cv_yaoxianglin.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%79%78%6C_%69%6D%75%32%33%63%73@%31%36%33.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/YYYYXL1004", "_blank");
         },
       },{
         id: 'social-rss',
@@ -498,20 +450,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
