@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CAGRec: 协同锚定引导的多模态生成式推荐"
-description: "在编码、训练、推理三阶段系统性注入协同信号，弥合多模态生成式推荐中的内容-协同鸿沟与离散-连续鸿沟。已投稿 ACM MM 2026 (CCF-A)，第一作者。"
+description: "在编码、训练、推理三阶段系统性注入协同信号，弥合多模态生成式推荐中的内容-协同鸿沟与离散-连续鸿沟。已被 ACM MM 2026 (CCF-A) 录用，第一作者。"
 importance: 1
 category: research
 github: https://github.com/YYYYXL1004/CAGRec
@@ -28,7 +28,7 @@ related_publications: true
 
 - 在 Amazon **3 个数据集**上**全部 15 项指标达到 SOTA**
 - **NDCG@10** 较最强基线**提升 2.0%–3.7%**
-- 已投稿至 **ACM MM 2026 (CCF-A)**，第一作者
+- 已被 **ACM MM 2026 (CCF-A)** 录用，第一作者
 
 ## 相关链接
 

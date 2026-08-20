@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-论文 **CAGRec: Collaborative-Anchor Guided Multimodal Generative Recommender** 已投稿至 **ACM MM 2026 (CCF-A)**，第一作者。在 Amazon 3 个数据集上全部指标达到 SOTA。
+论文 **CAGRec: Collaborative-Anchor Guided Multimodal Generative Recommender** 已被 **ACM MM 2026 (CCF-A)** 录用，第一作者。在 Amazon 3 个数据集上全部指标达到 SOTA。

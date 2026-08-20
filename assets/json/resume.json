@@ -3,9 +3,9 @@
     "name": "姚祥麟 (Xianglin Yao)",
     "label": "Undergraduate Researcher",
     "image": "",
-    "email": "yyy_1004@163.com",
-    "phone": "1786579091",
-    "summary": "内蒙古大学计算机科学与技术专业本科生，专业排名 1/55（前 1.8%），研究方向为生成式推荐与多模态学习。",
+    "email": "yxl_imu23cs@163.com",
+    "phone": "17865709091",
+    "summary": "内蒙古大学计算机科学与技术专业本科生，专业排名 1/61（前 1.7%），GPA 3.92/4.0。研究方向为生成式推荐与多模态学习。",
     "location": {
       "city": "呼和浩特",
       "countryCode": "CN",
@@ -27,10 +27,10 @@
       "studyType": "本科",
       "startDate": "2023-08-01",
       "endDate": "2027-06-01",
-      "score": "GPA 3.92/4.0, 排名 1/55",
+      "score": "GPA 3.92/4.0, 排名 1/61（前 1.7%）",
       "courses": [],
       "highlights": [
-        "专业排名 1/55（前 1.8%）",
+        "专业排名 1/61（前 1.7%）",
         "北京大学信息科学技术学院交流访学 (2025.09 - 2026.01)"
       ]
     }
@@ -38,12 +38,22 @@
   "publications": [
     {
       "name": "CAGRec: Collaborative-Anchor Guided Multimodal Generative Recommender",
-      "publisher": "ACM Multimedia 2026 (Under Review)",
+      "publisher": "ACM Multimedia 2026 (Accepted)",
       "releaseDate": "2026",
       "summary": "提出在编码、训练、推理三阶段系统性注入协同信号，在 Amazon 3 个数据集上全部 15 项指标 SOTA，NDCG@10 较最强基线提升 2.0%-3.7%。"
     }
   ],
   "awards": [
+    {
+      "title": "第十七届蓝桥杯 C/C++ 程序设计大学 A 组 国家级三等奖（个人）",
+      "date": "2026-06-01",
+      "awarder": "蓝桥杯组委会"
+    },
+    {
+      "title": "2026 中国高校计算机大赛-团体程序设计天梯赛 国家级三等奖（个人）",
+      "date": "2026-05-01",
+      "awarder": "中国高校计算机大赛"
+    },
     {
       "title": "中国高校计算机大赛-团体程序设计天梯赛 全国总决赛个人三等奖",
       "date": "2026-04-01",
@@ -167,7 +177,7 @@
   "projects": [
     {
       "name": "CAGRec",
-      "summary": "协同锚定引导的多模态生成式推荐，在编码、训练、推理三阶段注入协同信号。ACM MM 2026 在投。",
+      "summary": "协同锚定引导的多模态生成式推荐，在编码、训练、推理三阶段注入协同信号。ACM MM 2026 已录用。",
       "highlights": ["全部 15 项指标 SOTA", "NDCG@10 提升 2.0%-3.7%"],
       "startDate": "2025-10-01",
       "endDate": "2026-04-01"
@@ -175,7 +185,7 @@
     {
       "name": "TAAC 腾讯广告算法大赛",
       "summary": "全模态生成式推荐赛道，本科双人队伍，初赛排名前 10%（约 1400 支队伍）。",
-      "highlights": ["NDCG@10 提升 239%"],
+      "highlights": ["NDCG@10 提升 317%"],
       "startDate": "2025-08-01",
       "endDate": "2025-09-01"
     },
