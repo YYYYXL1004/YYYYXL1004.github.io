@@ -1,65 +1,26 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: GitHub 个人主页与开源项目仓库。
+title: Repositories
+description: 研究代码、竞赛方案与个人主页项目。
 nav: true
 nav_order: 3
 ---
 
-{% if site.data.repositories.github_users %}
-
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
+<div class="repositories-intro">
+  <div>
+    <span class="repositories-kicker">Open Source & Research</span>
+    <p>这里汇总了我的研究实现、竞赛代码与网站项目。每个仓库都可以直接前往 GitHub 查看源码和最新进展。</p>
   </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_users %}
-
-## GitHub Contributions
-
-{% for user in site.data.repositories.github_users %}
-
-<div class="repositories">
-  <a href="https://github.com/{{ user }}">
-    <img class="only-light w-100" src="https://ghchart.rshah.org/YYYYXL1004" alt="GitHub Contributions" />
-    <img class="only-dark w-100" src="https://ghchart.rshah.org/409ba5/YYYYXL1004" alt="GitHub Contributions" />
+  <a class="github-profile-link" href="https://github.com/{{ site.data.repositories.github_username }}">
+    <i class="fa-brands fa-github"></i>
+    <span>@{{ site.data.repositories.github_username }}</span>
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
   </a>
 </div>
-{% endfor %}
 
----
-
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repository-grid">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
-{% endif %}

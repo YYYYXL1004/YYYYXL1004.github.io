@@ -1,10 +1,26 @@
-github_users:
-  - YYYYXL1004
-
-repo_description_lines_max: 2
+github_username: YYYYXL1004
 
 github_repos:
-  - YYYYXL1004/CAGRec
-  - YYYYXL1004/Y_TencentGR
-  - YYYYXL1004/DualBand-RingID
-  - YYYYXL1004/YYYYXL1004.github.io
+  - name: CAGRec
+    repository: YYYYXL1004/CAGRec
+    description: 协同锚定引导的多模态生成式推荐，在编码、训练与推理阶段统一注入协同信号。
+    highlight: ACM MM 2026
+    tags: [Generative Recommendation, Multimodal Learning]
+
+  - name: Y_TencentGR
+    repository: YYYYXL1004/Y_TencentGR
+    description: TAAC2025 腾讯广告算法大赛全模态生成式推荐方案，本科双人队伍初赛前 10%。
+    highlight: TAAC 2025
+    tags: [Sequential Recommendation, PyTorch]
+
+  - name: DualBand-RingID
+    repository: YYYYXL1004/DualBand-RingID
+    description: 面向 AIGC 图像溯源的双频带水印识别系统，多密钥识别平均准确率达到 98.3%。
+    highlight: PKU Course Project
+    tags: [AIGC Watermark, Diffusion Models]
+
+  - name: Academic Homepage
+    repository: YYYYXL1004/YYYYXL1004.github.io
+    description: 基于 Jekyll 与 al-folio 构建的个人学术主页，支持响应式布局和明暗主题。
+    highlight: GitHub Pages
+    tags: [Jekyll, Web]

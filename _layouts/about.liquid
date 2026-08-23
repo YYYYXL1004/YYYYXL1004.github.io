@@ -1,74 +1,99 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+<div class="post about-page">
+  <header class="post-header about-header">
+    {% if page.kicker %}
+      <span class="about-kicker">{{ page.kicker }}</span>
+    {% endif %}
+    <h1 class="post-title about-title">
+      <span>{{ page.headline | default: site.first_name }}</span>
+      {% if page.english_name %}
+        <small>{{ page.english_name }}</small>
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+
+    <div class="about-actions">
+      {% if site.data.socials.cv_pdf %}
+        <a class="about-action about-action-primary" href="{{ site.data.socials.cv_pdf | relative_url }}">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          Download CV
+        </a>
+      {% endif %}
+      {% if site.data.socials.github_username %}
+        <a class="about-action" href="https://github.com/{{ site.data.socials.github_username }}">
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </a>
+      {% endif %}
+      {% if site.data.socials.email %}
+        <a class="about-action" href="mailto:{{ site.data.socials.email }}">
+          <i class="fa-solid fa-envelope"></i>
+          Email
+        </a>
+      {% endif %}
+    </div>
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+    <div class="about-hero-grid">
+      <div class="about-copy">{{ content }}</div>
+
+      {% if page.profile and page.profile.image %}
+        <aside class="profile about-profile">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% assign profile_image_class = 'img-fluid rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) 280px, (min-width: 576px) 32vw, 78vw{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.headline cache_bust=true %}
+          <div class="profile-caption">
+            <span class="profile-status" aria-hidden="true"></span>
+            Generative Recommendation · Multimodal Learning
+          </div>
+        </aside>
+      {% endif %}
+    </div>
 
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <section class="about-section">
+        <div class="about-section-heading">
+          <span>Updates</span>
+          <h2>近期动态</h2>
+        </div>
+        {% include news.liquid limit=true %}
+      </section>
     {% endif %}
 
-    <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
+      <section class="about-section">
+        <div class="about-section-heading">
+          <span>Writing</span>
+          <h2>最新文章</h2>
+        </div>
+        {% include latest_posts.liquid %}
+      </section>
     {% endif %}
 
-    <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <section class="about-section">
+        <div class="about-section-heading about-section-heading-inline">
+          <div>
+            <span>Research</span>
+            <h2>代表论文</h2>
+          </div>
+          <a href="{{ '/publications/' | relative_url }}">全部论文 <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        {% include selected_papers.liquid %}
+      </section>
     {% endif %}
 
-    <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% social_links %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}

@@ -1,20 +1,19 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: 内蒙古大学 计算机科学与技术 | 本科生
+headline: 姚祥麟
+english_name: Xianglin Yao
+kicker: Undergraduate Researcher
+subtitle: 内蒙古大学 · 计算机科学与技术 · 2023 级本科生
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>内蒙古大学</p>
-    <p>计算机科学与技术</p>
-    <p>yxl_imu23cs@163.com</p>
+  image_circular: false
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: false
 
 announcements:
   enabled: true
@@ -27,10 +26,34 @@ latest_posts:
   limit: 3
 ---
 
-我是姚祥麟，内蒙古大学计算机科学与技术专业本科生（2023 级），专业排名 1/61（前 1.7%），GPA 3.92/4.0。2025 年秋季学期曾在北京大学信息科学技术学院交流访学。
+<p class="about-lead">我关注生成式推荐与多模态学习，希望让推荐模型同时理解内容语义与真实协同行为。</p>
 
-我的研究兴趣集中在**生成式推荐**与**多模态学习**方向。目前的工作 CAGRec 提出在编码、训练、推理三阶段系统性注入协同信号以弥合多模态生成式推荐中的内容-协同鸿沟与离散-连续鸿沟，已被 ACM MM 2026（CCF-A）录用，第一作者。
+<div class="about-stats" aria-label="个人学术亮点">
+  <div class="about-stat"><strong>1 / 61</strong><span>专业排名</span></div>
+  <div class="about-stat"><strong>3.92 / 4.0</strong><span>GPA</span></div>
+  <div class="about-stat"><strong>ACM MM 2026</strong><span>第一作者</span></div>
+  <div class="about-stat"><strong>PKU</strong><span>交流访学</span></div>
+</div>
 
-此外，我曾作为队长参加 TAAC2025 腾讯广告算法大赛（全模态生成式推荐赛道），本科双人队伍取得初赛前 10% 的成绩；在北大交流期间主导了 DualBand-RingID 双频带水印识别系统的课程研究项目，多密钥识别平均准确率达 98.3%。
+## 研究方向
 
-竞赛方面，获得第十七届蓝桥杯 C/C++ 大学 A 组国家级三等奖、2026 中国高校计算机大赛团体程序设计天梯赛国家级三等奖、蓝桥杯省级一等奖、全国大学生数学竞赛省级一等奖等。连续三年获内蒙古大学一等本科生学业优秀奖学金，被评为「自强自立之星标兵」与「三好学生」。
+<div class="research-focus-grid">
+  <article class="research-focus-card">
+    <span class="focus-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+    <div>
+      <h3>生成式推荐</h3>
+      <p>研究离散语义 ID、自回归生成与协同信号建模，提升推荐结果的准确性与可解释性。</p>
+    </div>
+  </article>
+  <article class="research-focus-card">
+    <span class="focus-icon"><i class="fa-solid fa-layer-group"></i></span>
+    <div>
+      <h3>多模态学习</h3>
+      <p>探索文本、图像和用户行为的统一表征，以及多模态内容与协同空间之间的有效对齐。</p>
+    </div>
+  </article>
+</div>
+
+目前的工作 **CAGRec** 在编码、训练和推理三阶段注入协同信号，以弥合多模态生成式推荐中的内容—协同鸿沟与离散—连续鸿沟，已被 **ACM MM 2026（CCF-A）**录用。
+
+2025 年秋季学期，我曾在北京大学信息科学技术学院交流访学；此外担任 TAAC2025 腾讯广告算法大赛队长，并主导 DualBand-RingID 双频带水印识别项目。

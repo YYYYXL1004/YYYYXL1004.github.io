@@ -1,4 +1,4 @@
-# 姚祥麟的个人学术主页
+# Y的个人学术主页
 
 [![Deploy](https://github.com/YYYYXL1004/YYYYXL1004.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/YYYYXL1004/YYYYXL1004.github.io/actions/workflows/deploy.yml)
 
