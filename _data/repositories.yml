@@ -19,8 +19,8 @@ github_repos:
     highlight: PKU Course Project
     tags: [AIGC Watermark, Diffusion Models]
 
-  - name: Academic Homepage
-    repository: YYYYXL1004/YYYYXL1004.github.io
-    description: 基于 Jekyll 与 al-folio 构建的个人学术主页，支持响应式布局和明暗主题。
-    highlight: GitHub Pages
-    tags: [Jekyll, Web]
+  - name: Y_Leetcode
+    repository: YYYYXL1004/Y_Leetcode
+    description: LeetCode 刷题记录与算法学习笔记，整理常见题型、解题思路与代码实现。
+    highlight: Algorithm Practice
+    tags: [LeetCode, Algorithms]
